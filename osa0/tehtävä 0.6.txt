@@ -1,0 +1,9 @@
+1.	käyttäjä on Single Page App -sovelluksen "muistiinpanojen lista" -näkymässä
+2.	käyttäjä klikkaa "luo uusi muistiinpano" -painiketta
+3.	sovellus avaa "uusi muistiinpano" -näkymän
+4.	käyttäjä kirjoittaa tekstikenttään uuden muistiinpanon sisällön
+5.	käyttäjä painaa "tallenna" -painiketta.
+6.	sovellus lähettää uuden muistiinpanon tiedot palvelimelle POST-pyynnöllä.
+7.	palvelin vastaanottaa pyynnön ja tallentaa uuden muistiinpanon
+8.	palvelin lähettää vahvistuksen (esimerkiksi HTTP-statuskoodi 200 OK) takaisin sovellukselle
+9.	sovellus päivittää "muistiinpanojen lista" -näkymän näyttämään uuden muistiinpanon

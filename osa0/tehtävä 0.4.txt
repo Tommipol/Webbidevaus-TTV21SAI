@@ -1,0 +1,12 @@
+1. käyttäjä luo uuden noten
+   -->	määrittele uusi note sanakirjana "new_note"
+   -->	aseta notelle "content" ja "date" arvot
+
+2. lähetetään uusi note palvelimelle POST-pyynnöllä
+   -->	määrittele palvelimen URL osoittamaan "https://studies.cs.helsinki.fi/exampleapp/new_note"
+   -->	käytä "requests"-kirjastoa lähettääksesi POST-pyynnön palvelimelle, liittämällä "new_note" pyyntöön
+
+3. Tarkistetaan, onnistuiko tallennus:
+   -->	tarkista HTTP-vastauksen tilakoodi
+   -->	jos "status_code" on 200, tulosta "muistiinpano tallennettu onnistuneesti."
+   -->	muussa tapauksessa tulosta "virhe tallennettaessa muistiinpanoa."

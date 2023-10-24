@@ -1,0 +1,14 @@
+1.	käyttäjä avaa selaimensa ja kirjoittaa osoitteen https://studies.cs.helsinki.fi/exampleapp/spa
+
+2.	selain tekee GET-pyynnön osoitteeseen https://studies.cs.helsinki.fi/exampleapp/spa
+
+3.	palvelin lähettää takaisin SPA-sovelluksen HTML-dokumentin, joka sisältää SPA-sovelluksen.
+
+4.	selain lataa HTML-dokumentin ja suorittaa siihen liitetyn JavaScript-koodin.
+
+5.	SPA-sovellus lataa tarvittavat resurssit, kuten CSS-tyylitiedoston ja JSON-datapalvelut
+
+6.	SPA-sovellus muodostaa näkymän ja näyttää sen käyttäjälle
+
+7.	käyttäjä voi nyt vuorovaikuttaa SPA-sovelluksen kanssa, kuten tarkastella muistiinpanoja, luoda uusia muistiinpanoja, 
+	tai tehdä muita sovelluksen tarjoamia toimintoja, kaikki ilman sivun uudelleenlataamista
